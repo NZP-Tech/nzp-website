@@ -1,25 +1,28 @@
-# Net Zero Platforms — Website
+# Net Zero Platforms website
 
-**Waste to Value Technology | Model First, Invest Later**
+**This repository publishes from `/docs`, not from the repository root.**
 
-A software-first commercial website for NZP's waste-to-value platform.
+That is deliberate, and it must stay that way. GitHub Pages serves every file in the
+publishing source at a public address, immediately, with no warning and no link needed.
+Publishing from the root means every file ever committed here is live on
+netzeroplatforms.com.
 
-## About
-Single-file HTML website built for Net Zero Platforms. Covers:
-- Platform overview & software-first positioning
-- Output pathways (H₂, SAF, Power, RNG)
-- Phased commercial journey
-- Technology (UHT Submerged Arc Gasification)
-- Track record & independent validation
+On 28 September 2026 five files were found publicly readable at the root of this site,
+including a client-confidential engagement snapshot and two partner one-pagers. They had
+been reachable since June. The site was moved to `/docs` the same day.
 
-## Stack
-- Vanilla HTML/CSS/JS
-- Inter + JetBrains Mono (Google Fonts)
-- Heroicons SVG icons
-- Calendly popup integration
+## The rules
 
-## Deployment
-Served via Cloudflare Tunnel for preview.
+- Only approved-public website files go in `/docs`.
+- Nothing else goes anywhere in this repository. No documents, no one-pagers, no drafts,
+  no scripts, no notes, no backups. Client documents belong in the document library behind
+  Cloudflare Access, never in a website repository, not even briefly.
+- Unlinked is not private. An unguessable address protects nothing.
+- After any change, check the live site from outside, signed out.
 
-## Development
-Edit `index.html` directly. No build step required.
+## Canary
+
+This file is at the repository root. If it ever becomes readable at
+https://netzeroplatforms.com/README.md then the publishing source has been switched back
+to the root and everything in this repository is public again. That is an incident,
+not a niggle. Fix it immediately.
