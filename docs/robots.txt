@@ -1,0 +1,7 @@
+# Net Zero Platforms, netzeroplatforms.com
+# Public marketing site. Everything served here is intended to be public.
+# Nothing is hidden by this file: robots.txt is not access control, and a
+# Disallow line advertises whatever it names. Anything not for publication
+# does not go in the published folder in the first place.
+User-agent: *
+Allow: /
